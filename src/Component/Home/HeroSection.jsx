@@ -23,7 +23,7 @@ const HeroSection = () => {
         {/* for image  */}
         <div className="section-hero-image">
           <picture>
-            <img src="../../src/assest/HomeImage/home.jpg" alt="Home-image" className="hero-img " />
+            <img src="../src/assest/HomeImage/home.jpg" alt="Home-image" className="hero-img " />
           </picture>
         </div>
       </div>
