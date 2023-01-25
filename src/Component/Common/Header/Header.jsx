@@ -8,7 +8,7 @@ const Header = () => {
     <MainHeader >
 
 <NavLink to ="/" >
-<img src="./src/assest/Logo/amcitclub-logo.png"  className="logo" alt="logo"  />
+<img src="../src/assest/Logo/amcitclub-logo.png"  className="logo" alt="logo"  />
 
 </NavLink>
 
