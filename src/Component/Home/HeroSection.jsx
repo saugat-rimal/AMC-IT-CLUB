@@ -1,19 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import {Button} from '../Common/Button/Button.js'
-
+import { Button } from "../Common/Button/Button.js";
 
 const HeroSection = () => {
-
-
   return (
     <Wrapper>
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
           <h1 className="hero-heading">AMC IT CLUB</h1>
           <p className="hero-para">
-          Welcome to the AMC IT Club! We are a community of individuals interested in all things technology. Our goal is to provide a space for members to learn, share, and grow their knowledge of the latest trends and developments in the field of information technology. We offer a variety of events and activities, including workshops, lectures, and hackathons , as well as opportunities to network with professionals and connect with like-minded individuals. 
+            Welcome to the AMC IT Club! We are a community of individuals
+            interested in all things technology. Our goal is to provide a space
+            for members to learn, share, and grow their knowledge of the latest
+            trends and developments in the field of information technology. We
+            offer a variety of events and activities, including workshops,
+            lectures, and hackathons , as well as opportunities to network with
+            professionals and connect with like-minded individuals.
           </p>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> Contact Us </NavLink>
@@ -23,7 +26,11 @@ const HeroSection = () => {
         {/* for image  */}
         <div className="section-hero-image">
           <picture>
-            <img src="/src/assest/HomeImage/home.jpg" alt="Home-image" className="hero-img " />
+            <img
+              src="/HomeImage/home.jpg"
+              alt="Home-image"
+              className="hero-img "
+            />
           </picture>
         </div>
       </div>
